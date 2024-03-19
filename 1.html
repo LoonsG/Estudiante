@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Registro para la Escuela de Docentes</h1>
+    <form id="registroForm">
+      <div class="form-group">
+        <label for="nombreCompleto">Nombre Completo*</label>
+        <input type="text" class="form-control" id="nombreCompleto" required>
+      </div>
+      <div class="form-group">
+        <label for="primerApellido">Primer Apellido*</label>
+        <input type="text" class="form-control" id="primerApellido" required>
+      </div>
+      <div class="form-group">
+        <label for="segundoApellido">Segundo Apellido</label>
+        <input type="text" class="form-control" id="segundoApellido">
+      </div>
+      <div class="form-group">
+        <label for="departamento">Departamento*</label>
+        <select class="form-control" id="departamento" required>
+            <option value="">Seleccionar Departamento</option>
+            <option value="La Paz">La Paz</option>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Potosí">Potosí</option>
+            <option value="Oruro">Oruro</option>
+            <!-- Puedes agregar más opciones según sea necesario -->
+          </select>
+      </div>
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" class="form-control" id="direccion">
+      </div>
+      <div class="form-group">
+        <label for="numeroCelular">Nro. de Celular</label>
+        <input type="tel" class="form-control" id="numeroCelular">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label>Sexo*</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="sexo" id="sexoMasculino" value="Masculino" required>
+          <label class="form-check-label" for="sexoMasculino">Masculino</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="sexo" id="sexoFemenino" value="Femenino" required>
+          <label class="form-check-label" for="sexoFemenino">Femenino</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="numeroCI">Nro. de CI*</label>
+        <input type="text" class="form-control" id="numeroCI" required>
+      </div>
+      <div class="form-group">
+        <label for="complemento">Complemento</label>
+        <input type="text" class="form-control" id="complemento">
+      </div>
+      <div class="form-group">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="fechaNacimiento">
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <button type="button" class="btn btn-secondary" id="cancelar">Cancelar</button>
+    </form>
+  </div>
+
+  <div class="container mt-5">
+    <h1>Registro para la Escuela de Docentes</h1>
+    <form id="registroForm">
+        <div class="form-group">
+       
+        </div>
+      </form>
+    <div id="informe">
+        <!-- Aquí se mostrará el informe -->
+    </div>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="1.js"></script> 
+</body>
+</html>
